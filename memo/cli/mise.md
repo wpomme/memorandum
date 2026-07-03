@@ -37,4 +37,7 @@ mise ls
 - nodejsの最新のLTSをインストールする
 ```
 mise use -g node@lts
+
+# mise で管理できるプラグインの一覧をみる
+mise registry
 ```
