@@ -10,7 +10,7 @@
 ls | sed "p;s/test/foo-test/" | xargs -n 2 mv
 ```
 
-- mac で文字列を置換して上書き
+- macで文字列を置換して上書き
 ```
 sed -i '' 's/foo/bar/g'
 ```

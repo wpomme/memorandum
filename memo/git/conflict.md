@@ -21,10 +21,10 @@ git restore --ours <file>
 - 特殊なHEADリファレンス
     - `HEAD`: 現在チェックアウトしているコミット
     - `MERGE_HEAD`: マージ中の相手ブランチの先頭コミット
-    - `ORIG_HEAD`: merge/rebase/reset 実行前の HEAD の位置
-    - `FETCH_HEAD`	直前の git fetch で取得したリモートの先頭
-    - `CHERRY_PICK_HEAD`: cherry-pick 中の対象コミット
-    - `REBASE_HEAD`: rebase 中に現在適用しているコミット
+    - `ORIG_HEAD`: merge/rebase/reset実行前のHEADの位置
+    - `FETCH_HEAD`	直前のgit fetchで取得したリモートの先頭
+    - `CHERRY_PICK_HEAD`: cherry-pick中の対象コミット
+    - `REBASE_HEAD`: rebase中に現在適用しているコミット
 
 - コンフリクトマーカーの見方
 ```diff
@@ -37,7 +37,7 @@ git restore --ours <file>
 >>>>>>> feature-branch
 ```
 
-- diff3 スタイルを有効にする
+- diff3スタイルを有効にする
 ```bash
 git config --global merge.conflictstyle diff3
 ```

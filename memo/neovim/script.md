@@ -29,7 +29,7 @@ nvim -u keymap.lua files.js
 ```
 
 - 注意: デフォルトの設定ファイルは読み込まれなくなってしまう
-- swapfile に関する警告が出るので、swapfile = false を追加しておくといい
+- swapfileに関する警告が出るので、swapfile = falseを追加しておくといい
 ```lua
 vim.opt.swapfile = false
 ```

@@ -1,4 +1,4 @@
-- server: 簡易的なWeb サーバーを起動させる方法
+- server: 簡易的なWebサーバーを起動させる方法
 ```bash
 # ruby
 ruby -rwebrick -e 'WEBrick::HTTPServer.new({:DocumentRoot => "./"}).start'

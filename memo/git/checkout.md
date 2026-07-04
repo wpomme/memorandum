@@ -1,5 +1,5 @@
-## `git checkout` から `git switch`, `git restore` へ
-- `git checkout` の役割
+## `git checkout`から`git switch`, `git restore`へ
+- `git checkout`の役割
     - ブランチの切り替え
     - 新規ブランチの作成
     - ファイルの復元

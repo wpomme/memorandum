@@ -1,5 +1,5 @@
 - command (bash builtin command)
-    - ドキュメントはman bash -> SHELL BUILTIN COMMANDS のところの項目をみる
+    - ドキュメントはman bash -> SHELL BUILTIN COMMANDSのところの項目をみる
 
 ## 
 ```

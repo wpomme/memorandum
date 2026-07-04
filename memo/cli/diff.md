@@ -1,6 +1,6 @@
 - diff
 
-- origfile と patchfile の内容が次の場合、diff の結果は次の通り
+- origfileとpatchfileの内容が次の場合、diffの結果は次の通り
 ```bash
 cat origfile
 > 1
@@ -24,7 +24,7 @@ diff origfile patchfile
 > 123
 ```
 
-- a unified diff 形式(-u オプション)
+- a unified diff形式(-uオプション)
 ```
 # -u を付けると、 a unified diff の形式で差分を出力する
 # 先頭の三行に、パッチファイルとパッチを当てるファイルの情報と、差分の概要を出力する
@@ -49,7 +49,7 @@ diff -u origfile patchfile
 +123
 ```
 
-#TODO origfile にパッチファイルを適用する
+#TODO origfileにパッチファイルを適用する
 # diff からパイプでpatchに繋げるとreversed patchと判定されるときがある
 ```bash
 diff -u origfile patchfile | patch -u

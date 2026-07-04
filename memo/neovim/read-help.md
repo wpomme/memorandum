@@ -3,10 +3,10 @@
 ```bash
 man nvim
 ```
-- neovim のWeb ドキュメント: https://neovim.io/doc/user/
+- neovimのWebドキュメント: https://neovim.io/doc/user/
 
 ### help の読み方 (vim と共通)
-- help を全画面で見る
+- helpを全画面で見る
 ```
 :h | only
 # それか<Ctrl-W> H を押して、高さを最大にする

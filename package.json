@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "textlint": "^15.7.1",
+    "textlint-rule-preset-ja-spacing": "^3.0.2"
+  },
+  "scripts": {
+    "textlint": "pnpm exec textlint",
+    "lint": "pnpm exec textlint memo/**/*.md",
+    "fix": "pnpm exec textlint --fix memo/**/*.md"
+  }
+}

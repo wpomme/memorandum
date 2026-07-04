@@ -1,4 +1,4 @@
-- reset とrevert の違い
+- resetとrevertの違い
     - reset -> コミットログが残らない
     - revert -> コミットログが残る
 

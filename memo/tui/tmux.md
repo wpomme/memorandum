@@ -1,5 +1,5 @@
 ## 例
-- 10 番目以降のwindow に移動する
+- 10番目以降のwindowに移動する
     - 番号を指定して移動する
     `prefix + '`
     - インタラクティブな移動
@@ -15,7 +15,7 @@
     - 前のセッションに移動する
         `prefix (`
 
-        * target-session は次の順番で決まる
+        * target-sessionは次の順番で決まる
         1. $ のついたsession ID
         2. セッションの正確な名前
         ...
@@ -24,8 +24,8 @@
         - `prefix + d`
     - 直前のセッションに戻る(Attach)
         - `tmux a` or `tmux attach`
-        1 例: 間違ってDetachしたときは`tmux attach`で復元する
-        2 例: 複数のセッションを起動させるとき、最初のセッションをDetachして、ターミナルで新しいtmuxを起動させる
+        1例: 間違ってDetachしたときは`tmux attach`で復元する
+        2例: 複数のセッションを起動させるとき、最初のセッションをDetachして、ターミナルで新しいtmuxを起動させる
             - その際は、tmuxに名前を付けると良さそう
             - ほとんど不具合を起こさない開発サーバーにtmux1を割り当てて、それ以外をtmux2にするとか?
 
@@ -47,13 +47,13 @@
     `prefix + ,`
 
 - その他
-    - tmux のコマンド一覧
+    - tmuxのコマンド一覧
     `tmux list-commands`
 
-- tmux のドキュメント
-    - tmux attach のドキュメントを探す
+- tmuxのドキュメント
+    - tmux attachのドキュメントを探す
     1. `man tmux`
     2. `/attach-session`
 
-    - tmux new のドキュメントを探す
+    - tmux newのドキュメントを探す
     1. `tmux list-commnads | grep new`
