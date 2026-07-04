@@ -1,4 +1,4 @@
 ## vim.pack
-- neovim 組み込みのプラグインマネージャー
+- neovim組み込みのプラグインマネージャー
 - ドキュメント
 :h vim.pack | only

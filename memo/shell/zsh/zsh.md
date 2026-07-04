@@ -1,16 +1,16 @@
-Mac OS のデフォルトシェル
+Mac OSのデフォルトシェル
 
 ## history コマンドのドキュメント
 ```sh
 $ man zshbuitins
 ```
 
-/history で検索すると、"Same as fc -l" と記載がある
--> zsh ではhistory コマンドの代わりにfc -l コマンドを使う
+/historyで検索すると、"Same as fc -l" と記載がある
+-> zshではhistoryコマンドの代わりにfc -lコマンドを使う
 
 ## 履歴展開 (History Expansion)
 - 最近のstringで始まるコマンドを履歴展開で補完して、実行したい場合
-    - `!"string"` まで入力して、`Tab` キーを押すと、該当のコマンドが展開される。該当のコマンドが正しいことを確認して実行ができる。
+    - `!"string"`まで入力して、`Tab`キーを押すと、該当のコマンドが展開される。該当のコマンドが正しいことを確認して実行ができる。
 ```sh
 $ !string
 ```
@@ -23,7 +23,7 @@ $ !string
         - `chmod -R go-w '/path/to/file'`
 
 # ディレクトリ移動コマンドとzsh の設定
-- 次の設定をdotfiles に記載してある
+- 次の設定をdotfilesに記載してある
 ```zsh
 # cd すると自動でpushd する
 setopt autopushd
@@ -32,7 +32,7 @@ setopt autopushd
 setopt pushdignoredups
 ```
 
-- dirs, pushd, popd について
+- dirs, pushd, popdについて
 ```
 # デフォルトだとディレクトリの遷移が見にくいので-v をalias に設定する
 alias dirs="dirs -v"

@@ -1,5 +1,5 @@
-- test, [
-    - man test が詳しい
+- test,[
+    - man testが詳しい
 ```bash
 man test
 

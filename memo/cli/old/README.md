@@ -1,2 +1,2 @@
 - cli/old
-    - 代替コマンドがあり、deprecate されたCLI のメモをここに置く
+    - 代替コマンドがあり、deprecateされたCLIのメモをここに置く

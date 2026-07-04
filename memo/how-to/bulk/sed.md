@@ -2,7 +2,7 @@
 ```bash
 $ git grep -l 'foo' | xargs sed -i '' -e 's/foo/bar/g'
 ```
-- git grep に-lを付けると、ファイル名だけを表示できる
+- git grepに-lを付けると、ファイル名だけを表示できる
 - Macのsedで上書き保存するには-i ''と指定する
     1. MacのsedはGNU版ではなくBSD版である
     2. BSD版のsedではバックアップ用の拡張子を指定する必要がある

@@ -7,7 +7,7 @@ pattern2 { action2 }
 
 ## ビルトイン関数
 - substr
-str の一部を抽出する
+strの一部を抽出する
 ```
 substr(str, start[, length])
 ```

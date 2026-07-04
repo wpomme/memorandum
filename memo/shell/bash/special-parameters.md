@@ -1,5 +1,5 @@
 - Special parameters
-Special Parameter は$ を付けて展開する(Parameter Expansion)
+Special Parameterは$ を付けて展開する(Parameter Expansion)
     - #: スクリプトや関数に渡された引数の数
     - Ref: Expands to the number of positional parameters in decimal
 

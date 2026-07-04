@@ -7,7 +7,7 @@
 - 表示モード切り替え
 <kbd>i</kbd>
     - thin -> long -> wide -> tree
-    - * このdotfilesではデフォルトの表示モードをtree にしてある
+    - * このdotfilesではデフォルトの表示モードをtreeにしてある
 
 - 新しいタブで開く
 <kbd>t</kbd>
