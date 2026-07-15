@@ -1,0 +1,2 @@
+- units: 単位の計算ができる
+    - mac版だと'/usr/share/misc/units.lib'に使える単位の一覧がある
