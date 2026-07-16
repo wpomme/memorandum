@@ -15,3 +15,7 @@
 - フロントエンドに関するメモ書きを作成するなど
     - container/presenterなど
     - docs/frontent/react/なども欲しい
+
+- Ruby
+    - blockのこと
+    - to_procのこと -> Object#to_procを参照すれば良いだろうか？

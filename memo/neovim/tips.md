@@ -6,3 +6,5 @@
 # 例: vim.pack のパッケージ一覧の見方(WIP)
 :lua vim.print(vim.pack.get({}, {'name'}))
 
+- 末尾の半角スペースを消去する
+`%s/ $//g`

@@ -1,5 +1,11 @@
 - branch: ブランチの作成など
 ```bash
-# 現在チェックアウトしていないブランチから、新しいブランチを作成する
-git branch <new-branch-name> <old-branch-name>
+# 基本: ブランチの作成
+git branch <branch>
+
+# 特定のコミット・ブランチから新しいブランチを作成するが、そのブランチには切り替えない場合
+git branch <branch> <commit>
+
+# ブランチを新規作成して、そのブランチに切り替えるならgit switchが使える
+git switch -c <branch>
 ```
