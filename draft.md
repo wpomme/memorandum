@@ -1,5 +1,12 @@
 # draft.md
 ## memo に書く予定や書いたら面白そうなものをここに書く
+- CLIの分割案
+    - bashのbuiltinコマンド
+        - command, aliasなど
+    - bashでよく使うコマンド、coreutils?
+        - grepなど
+    - その他、サードパーティ製のコマンド
+        - ghなど
 - zsh-cli
     - zshのauto-completionがとても便利
     - memoのcliを作成するときに利用できそう
