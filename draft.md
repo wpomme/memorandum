@@ -29,5 +29,9 @@
     - docs/frontent/react/なども欲しい
 
 - Ruby
+    - モジュールのことをまとめる
+        - includeやexcludeなど
+        - クラスの用語のことはまとまった
     - blockのこと
     - to_procのこと -> Object#to_procを参照すれば良いだろうか？
+    - インスタンス変数と||=のこと

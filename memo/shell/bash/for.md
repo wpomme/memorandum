@@ -1,7 +1,8 @@
 ## bash - for 文
+- 動機: bashだとパイプラインとxargsだけだとfilterのようなものを作成するのが難しかった...
+    - xargs の後にbash -c '<command>'とすれば出来そうだったけど
 
 ```bash
-## パターン１
 ##
 ## man bashの中のSHELL GRAMMARという章のCompound Commandsという項に載っている
 ## 次で大体見つかるはず
@@ -15,6 +16,5 @@ man bash
 ## 例:
 for DIRS in `find "$HOME/repo/memorandum/memo" -type f`; do
   echo $DIRS
-  # ls $DIRS > /dev/null 2>&1 || echo $DIRS
 done
 ```
