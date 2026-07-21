@@ -1,11 +1,12 @@
 # draft.md
 ## memo に書く予定や書いたら面白そうなものをここに書く
+- fzf, ripgrep, fdなどのドキュメントや使い方
+    - batやfdを使うと、memo-cliの存在意義が薄れる...
+    - altenativesなCLIも使って行った方がいい
 - 対象のメモのドキュメントの読み方をまとめる場所があったら嬉しい
     - それとは別に、markdownやJSDocの記法を書くところとかも欲しい
     - DB入れないとダメそう
 - CLIの分割案
-    - bashのbuiltinコマンド
-        - command, aliasなど
     - bashでよく使うコマンド、coreutils?
         - grepなど
     - その他、サードパーティ製のコマンド
