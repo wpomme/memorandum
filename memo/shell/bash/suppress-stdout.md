@@ -15,9 +15,9 @@ ls ~/Downloads/ 2> /dev/null
 
 3. 両方とも捨てる
 ```bash
-## 記号すぎる
-`command` 2>&1 /dev/null
+## 従来の方法？
+command -v ls 2>&1 > /dev/null
 
-## Bash 4.0だと次の書き方でもOKらしい(By Gemini)
-`command` &> /dev/null
+## Bash 4.0だと次の書き方でもOKらしい
+command -v ls &> /dev/null
 ```
