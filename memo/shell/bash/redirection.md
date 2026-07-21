@@ -1,4 +1,11 @@
-## Suppress stdout and stderr: 標準出力と標準エラー出力の結果を表示しない場合
+## Redirection: 標準出力と標準エラー出力の結果を表示しない場合
+- ドキュメント
+```bash
+man bash
+/^REDIRECTION
+```
+
+### 出力を捨てるとき
 1. 標準出力だけ捨てる
 ```bash
 ls ~/Downloads/ > /dev/null
