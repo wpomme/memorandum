@@ -2,6 +2,10 @@
 
 - 例
 ```bash
+## 基本形
+# grep <word> <file>
+grep ls foo.txt
+
 ## -Rオブションを付ければfindからパイプで渡す必要もない
 ## -R: ディレクトリの中を再帰的に検索する
 grep -R "ls" memo/
