@@ -25,3 +25,13 @@ $ cd dir || exit 1
 ## フォルダがなければ作成する
 [ -d path/to/folder ] || mkdir -p path/to/folder
 ```
+
+## 複数の文字列を変数に入れるとき
+- `read`を使う。`while`やパイプと組み合わせる。
+```bash
+echo 'aaa bbb ccc' | while read A B C
+do
+  echo $A, $B, $C
+done
+# > aaa, bbb, ccc
+```
