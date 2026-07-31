@@ -4,6 +4,8 @@
 - 対象のメモのドキュメントの読み方をまとめる場所があったら嬉しい
     - それとは別に、markdownやJSDocの記法を書くところとかも欲しい
     - DB入れないとダメそう
+- architecture/を作成する
+    - Null Objectのことを書く
 - CLIの分割案
     - bashでよく使うコマンド、coreutils?
         - grepなど
