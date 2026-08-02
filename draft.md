@@ -33,6 +33,9 @@
 - フロントエンドに関するメモ書きを作成するなど
     - docs/frontent/react/なども欲しい
 
+- idiom
+    - TypescriptやRubyのidiomを記載するところ
+
 - Ruby
     - モジュールのことをまとめる
         - includeやexcludeなど
