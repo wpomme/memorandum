@@ -33,6 +33,10 @@
 - フロントエンドに関するメモ書きを作成するなど
     - docs/frontent/react/なども欲しい
 
+- perlのワンライナー
+    - ファイルのin-place置換がsedより便利そう
+    - ファイル名の置換など
+
 - idiom
     - TypescriptやRubyのidiomを記載するところ
 

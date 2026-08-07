@@ -1,15 +1,7 @@
-- tr
-The tr utility copies the standard input to the standard output with substitution or deletion of selected characters.
+## tr: 標準出力からの文字列を置換・削除するコマンド
 
-- よく使うコマンド
+- 例
 ```bash
-# 標準入力から受けた空白を改行に変換して標準出力に渡す
-tr ' ' '\n'
-
-# 例
-echo "foo bar baz" | tr ' ' '\n'
-
-> foo
-> bar
-> baz
+## PATHの一覧を取得する
+env | grep ^PATH | tr ":" "\n"
 ```

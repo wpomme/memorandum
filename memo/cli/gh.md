@@ -1,4 +1,4 @@
-- gh github CLI
+## gh: github CLI
 ```bash
 # 現在のブランチのPR のステータスを確認する場合
 ## マージ済みかどうかなどが分かる
