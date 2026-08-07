@@ -1,5 +1,5 @@
 - tips
-`:Format`で開いているファイルのformatがかかるように設定した
+`:messages`で過去のメッセージが見れる
 
 - グローバル変数vimの中の変数の見方
 :lua vim.print(vim.<variables>)
