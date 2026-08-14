@@ -17,14 +17,10 @@
 
     - 意外と書くことが多い
 - memoフォルダの集計やメモの書き方を入れる場所: /memo/meta/
-- zsh-cli
-    - zshのauto-completionがとても便利
-    - memoのcliを作成するときに利用できそう
 
 - 自分独自のコマンドの解説をする場所
     - <- aliasコマンドで多少は見れる
     - 作っておいて忘れたりするので
-    - cocの補完とかaliasとか
     - CLIの組み合わせを保存する場所: memo/how-to => memo/cli/example/など？
 
 - データ構造やアルゴリズムのメモも作成したら面白そう
@@ -32,10 +28,6 @@
     - その中にmarkdown.mdを入れる
 - フロントエンドに関するメモ書きを作成するなど
     - docs/frontent/react/なども欲しい
-
-- perlのワンライナー
-    - ファイルのin-place置換がsedより便利そう
-    - ファイル名の置換など
 
 - idiom
     - TypescriptやRubyのidiomを記載するところ

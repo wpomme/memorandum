@@ -1,7 +1,7 @@
 ## SHELL BUILTIN COMMANDS: 組み込みコマンド
 - ドキュメント
-    - 組み込みコマンドのドキュメントはman bash のSHELL BUILTIN COMMANDS に記載がある
-    - 例えば、cd, command, 
+    - 組み込みコマンドのドキュメントはman bashのSHELL BUILTIN COMMANDSに記載がある
+    - 例えば、cd, command, alias
 ```bash
 man bash
 ## ^を付けないと結構いっぱい出てくる

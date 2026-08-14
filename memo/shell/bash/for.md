@@ -1,6 +1,6 @@
 ## bash - for 文
 - 動機: bashだとパイプラインとxargsだけだとfilterのようなものを作成するのが難しかった...
-    - xargs の後にbash -c '<command>'とすれば出来そうだったけど
+    - xargsの後にbash -c '<command>'とすれば出来そうだったけど
 
 ```bash
 ##
