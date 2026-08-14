@@ -1,5 +1,22 @@
 ## bash: GNU Bourne-Again SHell
 
+## ドキュメントについて
+- manページを確認することが基本: `man bash`
+- 特に重要な章を次にリストアップしておく
+```plain
+# bashの組み込みコマンドに関する説明が載っている
+# echo, cd, alias, type, command, etc...
+SHELL BUILTIN COMMANDS
+
+# コマンドや変数の展開について
+EXPANSION
+```
+
+## bashの章を抜き出すコマンド
+```bash
+man bash | perl -ne 'print if /^[A-Z]/'
+```
+
 ## Tips
 Control + l(C-l)で画面にある出力を消去できる  
 詳しくはman bashのCommands for Movingを参照  
