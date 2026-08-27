@@ -7,6 +7,7 @@ pnpm exec textlint
 pnpm textlint
 
 ## pnpm dlx (alias pnpx): レジストリから直接取得し、コマンドを実行
+## dlx => execにするには、該当のパッケージをpnpm addで追加すればよい
 pnpx create-vue my-app
 pnpm dlx create-vue my-app
 # ドキュメントにはpnxのaliasesがpnpm dlx, pnpxとあるが、pnxだけが今の環境だと動かない
@@ -20,4 +21,16 @@ pnpm list -g
 
 # そしてアンインストールする場合
 pnpm uninstall -g textlint
+```
+
+## 設定: pnpm-workspace.yaml
+```yaml
+allowBuilds:
+  # JavaScriptのバンドラーを有効にする
+  esbuild: true
+# キャレットを付けず、正確なバージョンをpackage.jsonに記載する
+saveExact: true
+# パッケージが公開されてから指定した時間(分)以上経過しないと、そのパッケージをインストールできないようにする。
+# デフォルトは1440分(１日)
+minimumReleaseAge: 1440
 ```
