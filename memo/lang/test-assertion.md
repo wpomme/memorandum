@@ -6,5 +6,6 @@
 ### Ruby
 minitestのspecはこれが正しいはず！
 ```ruby
-_expected).must_equal(actual)
+assert_equal expected, actual
+_(expected).must_equal(actual)
 ```

@@ -12,3 +12,12 @@
 - undo, redo
     - undo: u
     - **redo: <C-R>**
+
+
+- word-motion: 単語単位の移動
+    - https://vim-jp.org/vimdoc-ja/motion.html#word-motions
+    - `w`だけでなく、`W`や`e`でも移動できる
+
+- object-motion: オブジェクト単位での移動
+    - https://vim-jp.org/vimdoc-ja/motion.html#object-motions
+    - `)`や`]]`で移動できる
