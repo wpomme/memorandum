@@ -3,22 +3,27 @@
 ## ドキュメント: perlrunにperlコマンドのオプションの解説がある
 man perlrun
 
-## ドットファイルだけを取得
+## grep系
+### ドットファイルだけを取得
 ls -alGpF | perl -lane 'print if $F[-1] =~ /^\./'
 
-## bashのマニュアルから章を抜き出すコマンド
+### bashのマニュアルから章を抜き出すコマンド
 man bash | perl -ne 'print if /^[A-Z]/'
 
-## 対象ファイルについて、文字列の一括置換を行う場合(in-place編集)
+### 特定のフォルダから、"href="か"src="が含まれている行を抜き出すコマンド(正規表現の「選択」)
+find packages/web/src | xargs -I@ perl -ne 'print if /href=|src=/' @
+
+## sed系
+### 対象ファイルについて、文字列の一括置換を行う場合(in-place編集)
 git grep -l NOT_FOUND_MESSAGE | xargs -I@ perl -pi -e 's/NOT_FOUND_MESSAGE/READ_RESULT_IS_NOT_FOUND/g' @
 
-## マッチする部分が正規表現ではなくて文字列である場合は、正規表現の最初に\Qを付ける
-## 置換する文字列にも\Qを付けてしまうと、メタ文字も一緒に置換されてしまう
+### マッチする部分が正規表現ではなくて文字列である場合は、正規表現の最初に\Qを付ける
+### 置換する文字列にも\Qを付けてしまうと、メタ文字も一緒に置換されてしまう
 echo "_(expected).must_equal(actual)" | perl -p -e 's/\Q_(expected).must_equal(actual)/_(actual).must_equal(expected)/g'
 
-## マッチングしたものを取り出す場合: https://perldoc.jp/docs/perl/5.22.1/perlretut.pod#Extracting32matches
-## グループ化メタ文字()の中でマッチしたものは、$1, $2, ...などで取り出せる
-## must_equalのカッコの中身にマッチさせて、その中身を_()の中に移動する
+### マッチングしたものを取り出す場合: https://perldoc.jp/docs/perl/5.22.1/perlretut.pod#Extracting32matches
+### グループ化メタ文字()の中でマッチしたものは、$1, $2, ...などで取り出せる
+### must_equalのカッコの中身にマッチさせて、その中身を_()の中に移動する
 echo "_(expected).must_equal([:list, 'foo'])" | perl -p -e 's/\Q_(expected).must_equal(\E(.+)\)/_($1).must_equal(expected)/g'
 # => _([:list, 'foo']).must_equal(expected)
 ```

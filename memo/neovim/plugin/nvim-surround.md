@@ -7,6 +7,12 @@
 :h nvim-surround | only
     - ドキュメントに便利なエイリアス集などが載っている
 
+### 例
+- 単語をHTMLタグで囲むには
+    `ysiwth1`
+    - タグを変更するには
+        `csth2`
+
 ## 使い方(ドキュメントから)
 
     Old text                    Command         New text

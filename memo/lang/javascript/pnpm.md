@@ -13,6 +13,9 @@ pnpm dlx create-vue my-app
 # ドキュメントにはpnxのaliasesがpnpm dlx, pnpxとあるが、pnxだけが今の環境だと動かない
 # ref: https://pnpm.io/ja/cli/pnx
 
+# パッケージのインストール
+# バージョンを正確に指定するには--save-exact, -Eを使う
+pnpm add -E tsx
 # コマンドのグローバルインストールも可能
 pnpm add -g textlint
 
