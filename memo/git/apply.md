@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "git", "Email", "Patching"]
+---
 - パッチファイルを適用する
 ```bash
 git apply <filename>

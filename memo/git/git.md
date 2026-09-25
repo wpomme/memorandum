@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "git", "documentation"]
+---
 - git
 ## ドキュメント
 https://git-scm.com/about

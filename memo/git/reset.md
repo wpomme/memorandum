@@ -1,3 +1,7 @@
+---
+tags: ["CLI", "git", "Basic Snapshotting"]
+---
+## git reset
 - resetとrevertの違い
     - reset -> コミットログが残らない
     - revert -> コミットログが残る

@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "git", "Plumbing Commands"]
+---
 - rev-parse
     - "Pick out and massage parameters"というporcelain command
 

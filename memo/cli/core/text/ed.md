@@ -1,3 +1,6 @@
+---
+tags: ["bash", "CLI", "text", "legacy"]
+---
 ## ed: classic text editor
 
 ## 使い方１

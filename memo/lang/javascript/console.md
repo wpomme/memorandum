@@ -1,3 +1,6 @@
+---
+tags: ["JavaScript", "Debug", "I/O"]
+---
 - console
 ```javascript
 # Map オブジェクトにはconsole.table()を使うと中身が見やすい

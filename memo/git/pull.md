@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "git", "Sharing and Updating Projects"]
+---
 ## pull: リモートからブランチを取得し、ローカルのブランチとマージする
 
 ### ローカルとリモートの履歴が分岐していた場合のwaringについて

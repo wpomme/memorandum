@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "External Command", "container", "CLI client"]
+---
 # docker CLI: dockerを操作するためのCLI
 ## 起動しているdocker containerにログイン
 ```

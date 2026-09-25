@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "git", "Branching and Merging", "Inspection Version"]
+---
 - 基本的なログ表示
 ```bash
 git log --oneline

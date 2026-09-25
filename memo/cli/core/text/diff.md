@@ -1,3 +1,6 @@
+---
+tags: ["bash", "CLI", "text"]
+---
 ## diff: ファイルやディレクトリの差分を取得する
 
 - origfileとpatchfileの内容が次の場合、diffの結果は次の通り

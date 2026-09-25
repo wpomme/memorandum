@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "git", "Conflict"]
+---
 - fix conflict
 ```bash
 $ vimdiff  # alias vimdiff="git mergetool -t vimdiff"

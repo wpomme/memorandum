@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "git", "Setting"]
+---
 - gitのアカウント情報などの確認
 ```bash
 git config -l

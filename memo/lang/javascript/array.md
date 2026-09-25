@@ -1,3 +1,6 @@
+---
+tags: ["JavaScript", "Array", "Data Structure"]
+---
 - Array
 ```javascript
 # 配列の最後の値を取得するのにat() が使えるようになった

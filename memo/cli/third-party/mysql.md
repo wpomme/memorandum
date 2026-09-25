@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "External Command", "DB", "CLI client"]
+---
 ## mysql-client
 # TODO: mysql のmemo はまた別のところに置く
 #       docs/db/mysql/ など

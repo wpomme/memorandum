@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "External Command", "Package Manager", "Mac"]
+---
 - 自分でインストールしたパッケージを確認するとき
 # TODO: homebrew の設定に関することは docs/setting/homebrew.md に書く
 ```bash

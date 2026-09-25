@@ -1,3 +1,6 @@
+---
+tags: ["JavaScript", "Annotation", "Notation"]
+---
 ## JSDoc の書き方
 ```javascript
 ## Array

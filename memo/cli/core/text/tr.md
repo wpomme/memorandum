@@ -1,3 +1,6 @@
+---
+tags: ["bash", "CLI", "text", "substitute", "edit", "filter", "remove"]
+---
 ## tr: 標準出力からの文字列を置換・削除するコマンド
 
 - 例

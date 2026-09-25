@@ -1,3 +1,6 @@
+---
+tags: ["JavaScript", "Package Manager", "Setting", "CLI"]
+---
 - pnpm: パッケージマネージャー
 ```bash
 ## exec: プロジェクトのスコープでコマンドを実行

@@ -1,4 +1,7 @@
-- `git switch`: ブランチの操作
+---
+tags: ["CLI", "git", "Branching and Merging", "legacy"]
+---
+## `git switch`: ブランチの操作
 
 ```bash
 # ブランチの切り替え

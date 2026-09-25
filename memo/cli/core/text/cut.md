@@ -1,3 +1,6 @@
+---
+tags: ["bash", "CLI", "text", "filter", "remove"]
+---
 ## cut: ファイルを適切なところでカットする
 
 - 例

@@ -1,3 +1,6 @@
+---
+tags: ["perl", "oneliner", "display", "edit", "substitute", "regex"]
+---
 ## Perl one-liners: Perlによるワンライナー
 ```bash
 ## ドキュメント: perlrunにperlコマンドのオプションの解説がある

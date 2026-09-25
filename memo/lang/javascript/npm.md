@@ -1,3 +1,6 @@
+---
+tags: ["JavaScript", "Package Manager", "Setting", "CLI"]
+---
 - npm: パッケージマネージャー
 ```bash
 ## グローバルにインストールしたコマンドの確認

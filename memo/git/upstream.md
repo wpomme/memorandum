@@ -1,3 +1,6 @@
+---
+tags: ["git", "Sharing and Updating Projects", "Branching and Merging", "Option"]
+---
 ## upstream: 追跡ブランチ
 
 ```bash

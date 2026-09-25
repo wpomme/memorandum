@@ -1,3 +1,6 @@
+---
+tags: ["bash", "CLI", "search", "bulk", "pipe", "recursive"]
+---
 ## grep: 文字列検索
 
 - 例

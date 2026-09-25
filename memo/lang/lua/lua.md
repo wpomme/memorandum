@@ -1,3 +1,6 @@
+---
+tags: ["lua", "Package Manager", "Linter", "Setting", "Formatter"]
+---
 ## lua
 
 ### パッケージマネージャー
@@ -13,7 +16,7 @@
     - dotfiles/の下に`.luacheckrc`を作成する
         - globalsに`vim`を設定し、accessing undefined variable vimの警告をなくす
 
-#### 実行
+- 実行
 ```bash
 luacheck config/nvim/**/*.lua
 ```

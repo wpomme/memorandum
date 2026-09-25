@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "Third Party", "git", "CI/CD", "CLI client"]
+---
 ## gh: github CLI
 ```bash
 # 現在のブランチのPR のステータスを確認する場合

@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "git", "Basic Snapshotting"]
+---
 - `git restore`: ファイルの復元
 
 ```bash

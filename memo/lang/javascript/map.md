@@ -1,3 +1,6 @@
+---
+tags: ["JavaScript", "Hash", "Data Structure", "Notation"]
+---
 - map
 ```javascript
 # 値を得るときはget() を使う

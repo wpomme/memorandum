@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "External Command", "Modern CLI", "Directory Navigation"]
+---
 ## zoxide: ナイスなcdコマンド
 ```bash
 ## ドキュメントやヘルプ

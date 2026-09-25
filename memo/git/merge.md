@@ -1,4 +1,7 @@
-- git squash
+---
+tags: ["CLI", "git", "Branching and Merging"]
+---
+## git merge
 ```bash
 # git squashしてマージ
 git merge --squash origin/feature/foo

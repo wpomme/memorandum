@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "git", "Basic Snapshotting"]
+---
 ## commit: コードの変更をコミットする
 
 ## 例

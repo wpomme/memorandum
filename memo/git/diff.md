@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "git", "Basic Snapshotting", "Comparison Version", "Patching"]
+---
 ## git diff: 差分を取る
 - 例
 ```bash

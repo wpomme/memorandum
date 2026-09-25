@@ -1,3 +1,6 @@
+---
+tags: ["bash", "CLI", "builtin", "Command inspection"]
+---
 ## alias: CLIにエイリアスを付ける
 ```bash
 ## aliasを実行すると、その環境のエイリアスの一覧が見れる

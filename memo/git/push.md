@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "git", "Sharing and Updating Projects"]
+---
 - 現在チェックアウトしているブランチをpushする
 ```bash
 # 最もシンプルな方法

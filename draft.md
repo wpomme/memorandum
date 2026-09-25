@@ -2,19 +2,13 @@
 ## memo に書く予定や書いたら面白そうなものをここに書く
 - fzf, ripgrep, fdなどのドキュメントや使い方
 - 対象のメモのドキュメントの読み方をまとめる場所があったら嬉しい
-    - それとは別に、markdownやJSDocの記法を書くところとかも欲しい
-    - DB入れないとダメそう
-- architecture/を作成する
-    - Null Objectのことを書く
-- CLIの分割案
-    - bashでよく使うコマンド、coreutils?
-        - grepなど
-    - その他、サードパーティ製のコマンド
-        - ghなど
+    - notation/
 - プライベート用のメモ
     - 英語ライティング用のメモなどが対象
     - 技術書からの書き抜きなど
     - git submoduleを使う？
+    - architecture/を作成する
+        - Null Objectのことを書く
 
 - memoフォルダの集計やメモの書き方を入れる場所: /memo/meta/
 
@@ -23,19 +17,12 @@
     - 作っておいて忘れたりするので
     - CLIの組み合わせを保存する場所: memo/how-to => memo/cli/example/など？
 
-- データ構造やアルゴリズムのメモも作成したら面白そう
 - htmlやymlなどの構造についてのメモを保存するフォルダを作成
-    - その中にmarkdown.mdを入れる
 - フロントエンドに関するメモ書きを作成するなど
     - docs/frontent/react/なども欲しい
-
-- idiom
-    - TypescriptやRubyのidiomを記載するところ
 
 - Ruby
     - モジュールのことをまとめる
         - includeやexcludeなど
-        - クラスの用語のことはまとまった
     - blockのこと
     - to_procのこと -> Object#to_procを参照すれば良いだろうか？
-    - インスタンス変数と||=のこと

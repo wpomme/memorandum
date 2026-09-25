@@ -1,3 +1,6 @@
+---
+tags: ["bash", "CLI", "text", "bulk", "edit", "pipe", "search"]
+---
 ## 例
 - -Iコマンド
 ### コマンドに渡す引数の場所を指定する

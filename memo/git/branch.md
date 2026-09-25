@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "git", "Branching and Merging"]
+---
 - branch: ブランチの作成など
 ```bash
 # 基本: ブランチの作成

@@ -1,3 +1,7 @@
+---
+tags: ["CLI", "git", "Branching and Merging", "legacy"]
+---
+## git checkout: git restore + git switchの機能があるgit CLI
 ## `git checkout`から`git switch`, `git restore`へ
 - `git checkout`の役割
     - ブランチの切り替え

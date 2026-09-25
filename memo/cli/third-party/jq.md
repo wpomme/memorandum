@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "External Command", "text", "json", "filter", "pretty", "display"]
+---
 - jq: CLI JSON Processor
 ```bash
 # 整形 -> ファイルへ出力

@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "External Command", "Package Manager", "Runtime Version Manager"]
+---
 # mise.md
 # TODO: mise の設定に関することは docs/setting/mise.md に書く
 ## mise

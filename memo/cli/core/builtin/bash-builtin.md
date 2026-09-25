@@ -1,3 +1,6 @@
+---
+tags: ["bash", "CLI", "builtin", "documentation"]
+---
 ## Bash builtin commands: Bashの組み込みコマンド
 - ドキュメントの探し方
 ```bash

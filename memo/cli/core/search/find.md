@@ -1,3 +1,6 @@
+---
+tags: ["bash", "CLI", "search", "bulk", "pipe", "recursive"]
+---
 ## find: フォルダの階層を巡回する
 
 - 例

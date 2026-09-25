@@ -1,3 +1,6 @@
+---
+tags: ["JavaScript", "Package Manager", "Setting"]
+---
 ## package.json: 
 
 ### バージョン指定について

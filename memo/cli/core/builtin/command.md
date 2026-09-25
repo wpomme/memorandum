@@ -1,7 +1,9 @@
-- command (bash builtin command)
-    - ドキュメントはman bash -> SHELL BUILTIN COMMANDSのところの項目をみる
+---
+tags: ["bash", "CLI", "builtin", "Command inspection"]
+---
+## command (bash builtin command)
 
-## 
+### 例
 ```
 # シェル関数やエイリアスを無視して、元のコマンドや、外部プログラムを直接実行するために使う
 ## 例

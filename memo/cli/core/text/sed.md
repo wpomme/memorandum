@@ -1,3 +1,6 @@
+---
+tags: ["bash", "CLI", "text", "substitute", "edit"]
+---
 ## sed: stream editor
 
 ## 例

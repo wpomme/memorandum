@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "External Command", "text", "display", "Character Inspection", "edit"]
+---
 - nkf: 文字コードの判定・変換
 ```bash
 # 文字コードを推測する
