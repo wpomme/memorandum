@@ -1,3 +1,6 @@
+---
+tags: ["neovim", "TUI"]
+---
 ## Command Line Mode: neovimのコマンドラインモード
 
 ## コマンドの詳細を調べたい場合

@@ -1,5 +1,9 @@
-- test,[
-    - man testが詳しい
+---
+tags: ["bash", "test", "condition", "documentation"]
+---
+## test, [: 値の判定を行うコマンド
+
+### ドキュメントの探し方
 ```bash
 man test
 

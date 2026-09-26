@@ -1,12 +1,8 @@
-Mac OSのデフォルトシェル
-
-## history コマンドのドキュメント
-```sh
-$ man zshbuitins
-```
-
-/historyで検索すると、"Same as fc -l" と記載がある
--> zshではhistoryコマンドの代わりにfc -lコマンドを使う
+---
+tags: ["zsh", "documentation", "Tips", "completion"]
+---
+## zsh: Mac OSのデフォルトシェル
+- コマンド履歴の検索、補完機能、zshzle(自作の関数とキーボードの操作をバインドすることができるみたい)が重要
 
 ## 履歴展開 (History Expansion)
 - 最近のstringで始まるコマンドを履歴展開で補完して、実行したい場合

@@ -1,3 +1,6 @@
+---
+tags: ["bash", "Notation", "Tips"]
+---
 # シェバン(shebang)
 ```
 # 例

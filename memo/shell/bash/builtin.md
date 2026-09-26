@@ -1,3 +1,6 @@
+---
+tags: ["bash", "builtin", "documentation"]
+---
 ## SHELL BUILTIN COMMANDS: 組み込みコマンド
 - ドキュメント
     - 組み込みコマンドのドキュメントはman bashのSHELL BUILTIN COMMANDSに記載がある

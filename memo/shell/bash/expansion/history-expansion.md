@@ -1,3 +1,6 @@
+---
+tags: ["bash", "expansion"]
+---
 ## HISTORY EXPANSION: コマンドの履歴を展開する
 - ドキュメント: HISTORY EXPANSIONという章がある
 ```

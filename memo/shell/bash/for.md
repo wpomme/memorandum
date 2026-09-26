@@ -1,3 +1,6 @@
+---
+tags: ["bash", "syntax", "documentation"]
+---
 ## bash - for 文
 - 動機: bashだとパイプラインとxargsだけだとfilterのようなものを作成するのが難しかった...
     - xargsの後にbash -c '<command>'とすれば出来そうだったけど

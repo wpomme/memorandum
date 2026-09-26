@@ -1,6 +1,9 @@
+---
+tags: ["bash", "documentation", "Tips"]
+---
 ## bash: GNU Bourne-Again SHell
 
-## ドキュメントについて
+## ドキュメントの探し方
 - manページを確認することが基本: `man bash`
 - 特に重要な章を次にリストアップしておく
 ```plain
@@ -14,7 +17,11 @@ EXPANSION
 
 ## bashの章を抜き出すコマンド
 ```bash
+## 章だけを抜き出す
 man bash | perl -ne 'print if /^[A-Z]/'
+
+## 章と節を抜き出す
+man bash | perl -ne 'print if /^[A-Z]|^\s{3}[A-Z]/'
 ```
 
 ## Tips
@@ -25,23 +32,6 @@ Control + l(C-l)で画面にある出力を消去できる
 ### コマンドを例示するときのドル記号($)とハッシュ(#)の違い
 - $ -> 一般ユーザー
 - # -> rootユーザー
-
-## 条件付きリスト(conditional list)
-### &&演算子
-- cd dirが成功した場合にのみ、touch new.txtを実行
-```bash
-$ cd dir && touch new.txt
-```
-
-## ||演算子
-- cd dirが失敗した場合、エラーコード1で終了する
-```bash
-$ cd dir || exit 1
-
-# 例
-## フォルダがなければ作成する
-[ -d path/to/folder ] || mkdir -p path/to/folder
-```
 
 ## 複数の文字列を変数に入れるとき
 - `read`を使う。`while`やパイプと組み合わせる。

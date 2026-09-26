@@ -1,7 +1,21 @@
-- Zshのコマンド履歴
+---
+tags: ["zsh", "documentation", "command history"]
+---
+## Zshのコマンド履歴について
     - fcコマンドを使う
     - コマンド履歴はtmuxだとウィンドウごとである
-    - ドキュメントはman zshbuiltinsからfcで検索すること
+
+## ドキュメントの探し方
+```zsh
+man zshbuiltins
+/fc
+```
+
+### Tips
+- /historyで検索すると、"Same as fc -l" と記載がある
+    - zshではhistoryコマンドの代わりにfc -lコマンドを使う
+
+## fcコマンドの例
 ```zsh
 # 直前のコマンド履歴を見る
 # fc -l

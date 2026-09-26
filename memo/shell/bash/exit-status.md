@@ -1,5 +1,7 @@
-- EXIT STATUS
-    - CLIコマンドの終了ステータス
+---
+tags: ["bash", "test", "status"]
+---
+## EXIT STATUS: CLIコマンドの終了ステータス
 
 man bash -> EXIT STATUSの章に載っている
 0 - 正常終了

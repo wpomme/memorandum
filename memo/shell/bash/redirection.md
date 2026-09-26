@@ -1,3 +1,6 @@
+---
+tags: ["bash", "Redirection", "I/O", "documentation"]
+---
 ## Redirection: 標準出力と標準エラー出力の結果を表示しない場合
 - ドキュメント
 ```bash
