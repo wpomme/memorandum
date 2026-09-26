@@ -1,3 +1,6 @@
+---
+tags: ["ruby", "array", "Creation", "Concatenation", "Data Structure"]
+---
 # Array: 配列について
 
 ## 配列の結合

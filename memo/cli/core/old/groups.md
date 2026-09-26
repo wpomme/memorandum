@@ -1,3 +1,6 @@
-- groups: グループを表示する
-    - idコマンドにより廃止された
-    - `id -Gn [user]`と同等である
+---
+tags: ["bash", "CLI", "legacy"]
+---
+## groups: グループを表示する
+- idコマンドにより廃止された
+- `id -Gn [user]`と同等である

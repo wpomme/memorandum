@@ -1,3 +1,6 @@
+---
+tags: ["bash", "CLI", "File and Directory", "display"]
+---
 ## ls: list directory contents
 ```bash
 ## 再帰的にファイル名を表示する

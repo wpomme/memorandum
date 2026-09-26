@@ -1,5 +1,5 @@
 ---
-tags: ["bash", "CLI", "text", "set", "edit", "filter", "remove"]
+tags: ["bash", "CLI", "text", "set", "edit", "filter", "remove", "tally"]
 ---
 - uniq: 文字の重複排除
     - 他のコマンドとsortと組み合わせて使うことが多い

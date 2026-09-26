@@ -1,3 +1,6 @@
+---
+tags: ["ruby", "string", "Creation", "Concatenation", "Data Structure"]
+---
 # String: 文字列クラスについて
 
 ## 文字列の結合
