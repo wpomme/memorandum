@@ -1,6 +1,8 @@
-- React: フロントエンドライブラリ・UIフレームワーク
-
-## Container / Presentational Component
+---
+tags: ["Frontend"]
+---
+## React: フロントエンドライブラリ・UIフレームワーク
+### Container / Presentational Component
 - Container Component
     - データ取得・状態管理・ビジネスロジック
     - UIを持たず、Presenterにpropsを渡して描画を委譲する

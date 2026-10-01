@@ -1,3 +1,6 @@
+---
+tags: ["CLI", "Network"]
+---
 ## tcpdump: ネットワークの交信ログを取得
 - 使い方
 ```bash

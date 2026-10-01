@@ -1,3 +1,6 @@
+---
+tags: ["Terminal", "Charactor"]
+---
 - ANSI escape code and set color to terminal
     - `RED='\033[31m'`のそれぞれの文字列の意味について
 1. '\033['

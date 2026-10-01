@@ -1,3 +1,6 @@
+---
+tags: ["TUI", "Terminal", "git"]
+---
 ## lazygit: git status, git addなどの操作を簡単にするTUI
 ### 基本
 - <space>: stagedとuntrackedをトグルする

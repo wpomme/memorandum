@@ -1,3 +1,6 @@
+---
+tags: ["Browser", "Frontend"]
+---
 ## Chrome
 
 - 開発コンソールのコマンドパレッドの出し方

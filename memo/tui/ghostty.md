@@ -1,3 +1,6 @@
+---
+tags: ["TUI", "Terminal"]
+---
 ## 例
 - 新規タブを作成
 <kbd>⌘</kbd> + <kbd>T</kbd>

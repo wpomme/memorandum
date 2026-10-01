@@ -1,12 +1,7 @@
-- markdown: markdownの記法に関するメモ
-# 特殊文字(Special Characters)
-## バックスラッシュ(\\)
-<kbd>option</kbd> + <kbd>¥</kbd>
-
-- Front Matter
-    - Markdownファイルの先頭に記載されるメタデータのこと
-
-- textlint
+---
+tags: ["meta", "format"]
+---
+## format: メモフォルダをtextlintでフォーマットするための準備
 ```bash
 # textlintと日本語のスペース関連のプリセットをグローバルにインストール
 pnpm add -g textlint textlint-rule-preset-ja-spacing

@@ -1,3 +1,6 @@
+---
+tags: ["How to", "Network"]
+---
 - server: 簡易的なWebサーバーを起動させる方法
 ```bash
 # ruby

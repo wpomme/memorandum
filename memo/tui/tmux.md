@@ -1,4 +1,8 @@
-## 例
+---
+tags: ["TUI", "Terminal"]
+---
+## tmux: Terminal Multiplexer
+### 例
 - 10番目以降のwindowに移動する
     - 番号を指定して移動する
     `prefix + '`
