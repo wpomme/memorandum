@@ -1,3 +1,6 @@
+---
+tags: ["neovim", "buffer", "Command Line Mode"]
+---
 ## buffer
 
 ### バッファの切り替え

@@ -1,3 +1,6 @@
+---
+tags: ["neovim", "plugin", "Operator", "Normal Mode", "documentation"]
+---
 - nvim-surround
     - 文字列を記号で囲ってくれる
     - https://github.com/kylechui/nvim-surround

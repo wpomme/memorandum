@@ -1,5 +1,5 @@
 ---
-tags: ["bash", "test", "condition", "documentation"]
+tags: ["bash", "条件", "documentation"]
 ---
 ## test, [: 値の判定を行うコマンド
 

@@ -1,3 +1,6 @@
+---
+tags: ["neovim", "Normal Mode", "Operator"]
+---
 ## text objects: テキスト操作のためのコマンド
 
 ### 例

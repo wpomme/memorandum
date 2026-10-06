@@ -1,3 +1,6 @@
+---
+tags: ["Ruby", "引数", "TODO"]
+---
 ## Arguments: Rubyの引数の取り扱いについて
 - キーワード引数
 ```ruby

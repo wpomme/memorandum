@@ -1,3 +1,6 @@
+---
+tags: ["neovim", "keymapping"]
+---
 ## keymap
 
 ## noremap, silentの意味

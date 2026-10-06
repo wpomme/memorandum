@@ -1,3 +1,6 @@
+---
+tags: ["neovim", "plugin", "documentation"]
+---
 ## neo-tree
 - サイドバーにファイルツリーが表示されるneovimのファイラープラグイン
 

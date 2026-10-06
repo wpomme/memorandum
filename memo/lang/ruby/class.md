@@ -1,3 +1,6 @@
+---
+tags: ["Ruby", "memo-summary"]
+---
 ## Rubyとクラス
 - 用語整理のためにメモを作成
 

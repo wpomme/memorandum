@@ -1,5 +1,5 @@
 ---
-tags: ["neovim", "TUI"]
+tags: ["neovim", "Command Line Mode"]
 ---
 ## Command Line Mode: neovimのコマンドラインモード
 

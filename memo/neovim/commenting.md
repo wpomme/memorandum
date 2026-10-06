@@ -1,5 +1,5 @@
 ---
-tags: ["neovim", "TUI"]
+tags: ["neovim", "Comment Out", "documentation"]
 ---
 ## commenting: コメントアウトなどの操作
     1. ビジュアルモードでgcと打つと大体コメントアウトできる

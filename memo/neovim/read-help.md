@@ -1,3 +1,6 @@
+---
+tags: ["neovim", "documentation"]
+---
 ## ドキュメント・help の読み方
 ### nvim のドキュメント
 ```bash

@@ -1,3 +1,6 @@
+---
+tags: ["Ruby", "Generate documentation"]
+---
 ## yard: ドキュメント生成のためのライブラリ
 
 ### 記法

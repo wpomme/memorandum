@@ -1,3 +1,6 @@
+---
+tags: ["neovim"]
+---
 ## Virtual Text: 仮想のテキスト表示
 
 ### yankする方法

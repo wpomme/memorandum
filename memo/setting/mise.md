@@ -1,12 +1,15 @@
-# mise.md
-## mise.toml
+---
+tags: ["toml", "duplicated filenames", "Tips"]
+---
+## mise.md
+### mise.toml
 - mise.tomlを読み取る順番(抜粋)
     - ~
     - .config/mise.toml        (local)
     - .cinfig/mise/config.toml (dotfiles)
     - ~
 
-- install
+### install
 ```bash
 # mise install でそれぞれのmise.toml をみてパッケージをインストールする
 mise install

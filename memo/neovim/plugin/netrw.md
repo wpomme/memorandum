@@ -1,3 +1,6 @@
+---
+tags: ["neovim", "plugin", "builtin"]
+---
 ## netrw: 組み込みファイラ
 - 起動
 ```
