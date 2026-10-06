@@ -1,5 +1,5 @@
 ---
-tags: ["ruby", "string", "Creation", "Concatenation", "Data Structure"]
+tags: ["Ruby", "string", "Creation", "Concatenation", "データ構造"]
 ---
 # String: 文字列クラスについて
 

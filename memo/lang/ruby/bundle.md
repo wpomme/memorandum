@@ -1,5 +1,13 @@
-- bundle
-    - プロジェクトごとに使うRubyのパッケージマネージャー
+---
+tags: ["CLI", "Ruby", "Package Manager"]
+---
+## bundle: プロジェクトごとのRubyのパッケージマネージャー
+
+### コマンドの一覧を見る方法(zsh)
+```zsh
+# gemと打った後、スペースを一つ入れてTabを押すと、サブコマンドの一覧が見れる
+gem <TAB>
+```
 
 - How to use
 ```bash

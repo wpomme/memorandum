@@ -21,7 +21,7 @@ nvim -l script.lua
 
 # スクリプトの作成・デバッグ
 # -u で設定ファイルを指定して読み込む
-nvim -u script.lua <file_name>
+nvim -u script.lua <filename>
 
 # 例
 ## keymap.lua を読み込んで files.js を編集する

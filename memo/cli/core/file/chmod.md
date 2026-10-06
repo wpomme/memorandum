@@ -1,5 +1,5 @@
 ---
-tags: ["bash", "CLI", "File and Directory", "display"]
+tags: ["bash", "CLI", "File and Directory", "edit", "completion"]
 ---
 ## chmod: ファイルモードとアクセス権限を変更するコマンド
 

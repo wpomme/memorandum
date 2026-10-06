@@ -1,5 +1,5 @@
 ---
-tags: ["perl", "oneliner", "display", "edit", "substitute", "regex"]
+tags: ["perl", "oneliner", "表示", "edit", "substitute", "regex"]
 ---
 ## Perl one-liners: Perlによるワンライナー
 ```bash

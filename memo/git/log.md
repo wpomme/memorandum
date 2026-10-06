@@ -12,6 +12,7 @@ git log --graph --oneline --all
 ```
 
 - 特定のファイルの変更履歴
+    - ファイル名の変更があっても、その前のコミットログまで追うことができる
 ```bash
 git log --follow -- filename
 ```

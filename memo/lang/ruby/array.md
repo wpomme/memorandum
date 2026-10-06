@@ -1,5 +1,5 @@
 ---
-tags: ["ruby", "array", "Creation", "Concatenation", "Data Structure"]
+tags: ["Ruby", "配列", "Creation", "Concatenation", "データ構造"]
 ---
 # Array: 配列について
 

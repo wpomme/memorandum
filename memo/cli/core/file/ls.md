@@ -1,5 +1,5 @@
 ---
-tags: ["bash", "CLI", "File and Directory", "display"]
+tags: ["bash", "CLI", "File and Directory", "表示"]
 ---
 ## ls: list directory contents
 ```bash

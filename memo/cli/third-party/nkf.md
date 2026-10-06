@@ -1,5 +1,5 @@
 ---
-tags: ["CLI", "External Command", "text", "display", "Character Inspection", "edit"]
+tags: ["CLI", "External Command", "text", "表示", "変換", "Character Inspection", "edit"]
 ---
 - nkf: 文字コードの判定・変換
 ```bash

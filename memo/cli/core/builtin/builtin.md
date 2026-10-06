@@ -1,3 +1,6 @@
+---
+tags: ["bash", "CLI", "builtin", "Command inspection"]
+---
 ## builtin: そのコマンドがbuiltinかどうかを判別する
 - 組み込みだと正常終了し、何も帰ってこない
 - それ以外だと何かが帰ってくる

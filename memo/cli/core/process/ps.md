@@ -1,5 +1,5 @@
 ---
-tags: ["bash", "CLI", "process", "display", "tally"]
+tags: ["bash", "CLI", "process", "表示", "配列"]
 ---
 ## ps: プロセスのステータスを確認する
 

@@ -1,5 +1,5 @@
 ---
-tags: ["JavaScript", "Array", "Data Structure"]
+tags: ["JavaScript", "配列", "データ構造"]
 ---
 - Array
 ```javascript

@@ -1,5 +1,5 @@
 ---
-tags: ["CLI", "Network", "display"]
+tags: ["CLI", "Network", "表示"]
 ---
 ## オプション
 - `-l`: 利用可能な全てのインターフェイスのみを表示する

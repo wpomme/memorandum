@@ -1,5 +1,5 @@
 ---
-tags: ["JavaScript", "Hash", "Data Structure", "Notation"]
+tags: ["JavaScript", "連想配列", "データ構造", "Notation"]
 ---
 - map
 ```javascript

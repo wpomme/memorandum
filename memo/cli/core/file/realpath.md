@@ -1,5 +1,5 @@
 ---
-tags: ["bash", "CLI", "File and Directory", "display"]
+tags: ["bash", "CLI", "File and Directory", "表示"]
 ---
 ## realpath: 実体の方のパスを返す
 - How to

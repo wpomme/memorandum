@@ -1,3 +1,6 @@
+---
+tags: ["Ruby", "Testing Framework"]
+---
 ## minitest: 軽量なテスティングフレームワーク
 
 - expectedとactualの位置

@@ -1,5 +1,5 @@
 ---
-tags: ["bash", "CLI", "text", "display", "count"]
+tags: ["bash", "CLI", "text", "表示", "集計"]
 ---
 ## オプション
 出力される数値は、行数・単語数・バイト数の順番で並んでいる  

@@ -1,5 +1,5 @@
 ---
-tags: ["bash", "CLI", "text", "bulk", "edit", "pipe", "search", "tally"]
+tags: ["bash", "CLI", "text", "bulk", "edit", "pipe", "search", "集計"]
 ---
 ## 例
 - -Iコマンド

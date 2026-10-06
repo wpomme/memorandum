@@ -1,5 +1,5 @@
 ---
-tags: ["CLI", "External Command", "text", "json", "filter", "pretty", "display"]
+tags: ["CLI", "External Command", "text", "json", "filter", "pretty", "表示"]
 ---
 - jq: CLI JSON Processor
 ```bash
