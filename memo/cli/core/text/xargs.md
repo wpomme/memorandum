@@ -15,6 +15,11 @@ echo 01\ Black\ Rain.aiff | tr " " - | xargs -I{} mv 01\ Black\ Rain.aiff {}
 ls | xargs echo
 ```
 
+- カレントディレクトリ配下のファイルについて、ファイル名を取得する
+```bash
+find . -type f | fzf | xargs -n1 basename
+```
+
 - 一つのechoコマンドにつき一つの引数を渡す
 ```bash
 ls | xargs -n1 echo
