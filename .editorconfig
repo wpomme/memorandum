@@ -1,0 +1,22 @@
+# EditorConfig is awesome: https://editorconfig.org
+
+# top-most EditorConfig file
+# エディターが.editorconfigという名前のファイルを探すとき、現在のディレクトリとその上のディレクトリを探していく。
+# root = trueだとそのファイルでエディターが.editorconfigを探すのをやめる
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+## 個人的にMarkdownファイルでもwhitespaceを使わないため設定
+trim_trailing_whitespace = true
+
+# Matches multiple files with brace expansion notation
+# Set default charset
+[*.{rb,js,jsx,ts,tsx,py,md,yaml,yml}]
+charset = utf-8
+
+# Tab indentation (no size specified)
+[Makefile]
+indent_style = tab

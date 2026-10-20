@@ -1,9 +1,11 @@
 {
   "devDependencies": {
-    "textlint": "^15.7.1",
-    "textlint-rule-preset-ja-spacing": "^3.0.2"
+    "prettier": "3.9.10",
+    "textlint": "15.7.1",
+    "textlint-rule-preset-ja-spacing": "3.0.2"
   },
   "scripts": {
+    "prettier": "pnpm exec prettier --check 'memo/**/*.md'",
     "lint": "pnpm exec textlint 'memo/**/*.md'",
     "fix": "pnpm exec textlint --fix 'memo/**/*.md'"
   }
