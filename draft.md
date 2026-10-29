@@ -22,7 +22,9 @@
     - docs/frontent/react/なども欲しい
 
 - Ruby
-    - モジュールのことをまとめる
+    - モジュールについて
         - includeやexcludeなど
-    - blockのこと
-    - to_procのこと -> Object#to_procを参照すれば良いだろうか？
+            - includeがインスタンスメソッド、exclude
+    - メソッドとproc, lambda
+    - 引数関連
+    - 定数を参照するときの順番
