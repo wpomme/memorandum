@@ -5,7 +5,7 @@ tags: ["bash", "expansion"]
 ### ドキュメント
 EXPANSIONという章がある。次のように検索すればその章に行ける
 ```
-/^EXPANSION 
+/^EXPANSION
 ```
 
 ### 展開の一覧(抜粋)
@@ -59,13 +59,12 @@ diff <(list) <(list)
 $ echo <(ls)
 ```
 ### 算術展開(Arithmetic Expansion)
-    - 例: インクリメント
+- 簡単な計算をするときに便利
 ```bash
-# letと++を使う方法
-# commandとは別にインデックスが欲しい場合に使う
-let ITER=0
-for VAR in `command`; do
-  echo $ITER
-  let ITER++
-done
+# ドルマークに普通のカッコを二重にして付ければいい
+$((expression))
+
+# echoによる算術展開の例
+echo $((124 / 8))
+=> 15
 ```
