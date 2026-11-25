@@ -2,6 +2,9 @@
 tags: ["neovim", "keymapping"]
 ---
 ## keymap
+- ドキュメント
+    - 例えばCTRL-Aなら:h | ^a
+        -　または:h | CTRL-A
 
 ## noremap, silentの意味
 - noremap

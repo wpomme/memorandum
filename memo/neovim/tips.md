@@ -24,3 +24,11 @@ tags: ["neovim", "Tips", "Motion"]
 - object-motion: オブジェクト単位での移動
     - https://vim-jp.org/vimdoc-ja/motion.html#object-motions
     - `)`や`]]`で移動できる
+
+- 連番の作成
+    - ドキュメント: h | ^a
+        - help | CTRL-A と同じ意味
+1. 一行ごとに0を置く
+2. 矩形ビジュアルモード(<C-v>)で、数字を選択する
+3. g<C-a>で連番になる
+    - 最初から連番だと、次は二の倍数の連番になる

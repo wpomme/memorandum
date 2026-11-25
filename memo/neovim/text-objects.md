@@ -4,23 +4,26 @@ tags: ["neovim", "Normal Mode", "Operator"]
 ## text objects: テキスト操作のためのコマンド
 
 ### 例
-- 単語を一つだけヤンクするには:
-    `yiw` or `yaw`
-    y: yank operator
-    iw, aw: text objects
+#### 単語
+    - ヤンク: `yiw` or `yaw`
+    - 変更: 'ciw' or 'caw'
+    - 削除: 'diw' or 'daw'
 
-- 引用符で囲まれた範囲をヤンクするには:
-    `yi"` or `ya"`
+#### 引用符
+    - ヤンク: `yi"` or `ya"`
+    - 変更: `ci"` or `ca"`
+    - 削除: `di"` or `da"`
+        - 検証用: ["foo", "bar", #{meth.add(["foo", "bar", meth("foo", "bar")])}]
 
-- 検索した単語を置き換えるには:
+    - 検索した単語を置き換えるには:
     `cgn`
     => `n`と`.`を組み合わせて検索した単語を順次置き換えられる
 
 
 ### オペレーター
-- d: 削除
 - y: ヤンク
 - c: 変更
+- d: 削除
 - v: 選択
 
 - オペレータ？
@@ -34,6 +37,7 @@ tags: ["neovim", "Normal Mode", "Operator"]
 - w: word - 一単語
 - s: sentence - 一行の場合が多い
 - 引用符、カッコ: 該当の引用符、カッコを指定する
+- $: 現在のカーソルからその行の行末まで
 - b: block - ブロックという単位を表す。Rubyのブロックと対応していた。
 - gn: 最後に使われた検索パターンを前方検索しマッチしたものを選択してビジュアルモードを開始する
     - n: 検索した単語について前方に移動
